@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'EB Garamond', serif;
+	background: linear-gradient(70deg, #fc2d79, #ff7754);
+}
+	
+h1	{
+	font-family: 'Quicksand', sans-serif;
+	color: #FE3C72;
+	font-size: 26px;
+	font-weight: bolder;
+}
+h2	{
+	font-family: 'Quicksand', sans-serif;
+	color: #424242;
+}
+
+div {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 45%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 6px 4px 8px 1px #424242;
+}
+
+a {
+	text-decoration: none;
+}
+
+#photo-profil {
+	border-radius: 10%;
+	width: 170px; 
+}
+
+#descript {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	text-align: center;
+}
+
+.list-inlineb {
+	padding: 0;
+	list-style: none;
+}
+
+.list-inlineb li {
+	display: inline;
+	margin: 0 12px;
+	font-size: 25px;
+}
+
+.fa-star {
+	color: #30adba;
+	font-size: 15px;
+}
+
+.fa-star:hover {
+	color: #FE3C72;
+	font-size: 15px;
+}
+
+.fa-heart {
+	color: #4ccc93;
+	font-size: 30px;
+}
+
+.fa-heart:hover {
+	color: #FE3C72;
+	font-size: 30px;
+}
+
+.fa-x {
+	color: #f96466;
+	font-size: 30px;
+}
+
+.fa-x:hover {
+	color: black;
+	font-size: 30px;
+}
+
+.fa-arrow-rotate-right {
+	color: #f2d056;
+	font-size: 15px;
+}
+
+.fa-arrow-rotate-right:hover {
+	color: #FE3C72;
+	font-size: 15px;
+}
+
+.row {
+	background-color: white;
+    padding: 2px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    display: inline;
+    box-shadow: none;
+    text-align: center;
+}
+
+#image-c {
+	width: 170px; 
+	height: 170px;
+	Object-fit: cover;
+	border-width: 10px;
+	border-radius: 10%;
+}
+
+#image-d {
+	width: 170px; 
+	height: 170px;
+	Object-fit: cover;
+	border-width: 10px;
+	border-radius: 10%;
+}
+.btn-pink {
+	color: white;
+	background-color: #FE3C72;
+	padding: 8px 16px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	display: block;
+	width: 20%;
+	margin: 10px auto;
+    box-shadow: 3px 5px 3px 1px #424242;
+    transition: 0,5s;
+}
+
+.btn-pink:hover {
+	background-color: #424242;
+    box-shadow: 3px 5px 3px 1px #FE3C72;
+    transition: 0,5s;
+}
+
+#final-contact {
+	color: #FE3C72;
+	font-weight: bolder;
+}
+
+.list-inline {
+	padding: 0;
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	margin: 0 12px;
+	font-size: 25px;
+}
+
+.fa-brands {
+	color: #424242;
+}
+
+.fa-brands:hover {
+	color: #FE3C72;
+}
